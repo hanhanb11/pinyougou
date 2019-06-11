@@ -27,5 +27,9 @@ app.service("brandService", function ($http) {
     //6.搜索
     this.search = function (pageNum, pageSize, searchEntity) {
         return $http.post('../brand/search.do?pageNum=' + pageNum + '&pageSize=' + pageSize, searchEntity)
+    };
+    //7.品牌下拉列表
+    this.selectOptionList=function () {
+        return $http.get('../brand/selectOptionList.do');
     }
 });

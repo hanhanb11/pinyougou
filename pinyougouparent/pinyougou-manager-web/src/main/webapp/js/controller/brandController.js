@@ -79,4 +79,8 @@ app.controller("brandController", function ($scope, $controller, brandService) {
             }
         );
     };
+
+
+    //6.品牌下拉列表
+
 });
