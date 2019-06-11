@@ -1,4 +1,4 @@
-app.controller("baseController",function ($scope) {
+app.controller("baseController", function ($scope) {
     //第2.步分页控件配置########分页开始#########
     $scope.paginationConf = {//当前页面默认值
         currentPage: 1,//当前页ma
@@ -10,7 +10,7 @@ app.controller("baseController",function ($scope) {
         }
     };
 
-    //刷新列表
+    //刷新列表 更新复选框
     $scope.reloadList = function () {
         //传入当前页和当前页记录数
         $scope.search($scope.paginationConf.currentPage, $scope.paginationConf.itemsPerPage);
@@ -27,7 +27,18 @@ app.controller("baseController",function ($scope) {
         }
     };
 
-
+    //优化模板列表显示数据
+    $scope.jsonToString = function (jsonString, key) {
+        var json = JSON.parse(jsonString);
+        var value = "";
+        for (var i = 0; i < json.length; i++) {
+            if (i > 0) {
+               value += "/";
+            }
+            value += json[i][key];
+        }
+        return value;
+    };
 
 
 });
