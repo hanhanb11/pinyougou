@@ -50,7 +50,16 @@ public class TbSeller implements Serializable {
 
     private String bankUser;
 
+    public String getBankCard() {
+        return bankCard;
+    }
+
+    public void setBankCard(String bankCard) {
+        this.bankCard = bankCard;
+    }
+
     private String bankName;
+    private  String bankCard;
 
     public String getSellerId() {
         return sellerId;

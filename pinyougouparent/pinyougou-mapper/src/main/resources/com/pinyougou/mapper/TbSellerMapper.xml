@@ -111,6 +111,7 @@
     from tb_seller
     where seller_id = #{sellerId,jdbcType=VARCHAR}
   </select>
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
     delete from tb_seller
     where seller_id = #{sellerId,jdbcType=VARCHAR}
@@ -121,6 +122,7 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
+
   <insert id="insert" parameterType="com.pinyougou.pojo.TbSeller" >
     insert into tb_seller (seller_id, name, nick_name, 
       password, email, mobile, 
