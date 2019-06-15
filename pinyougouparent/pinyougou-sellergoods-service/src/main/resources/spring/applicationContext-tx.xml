@@ -9,13 +9,14 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!--&lt;!&ndash; 事务管理器  &ndash;&gt;  -->
-    <!--<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">  -->
-        <!--<property name="dataSource" ref="dataSource" />  -->
-    <!--</bean>  -->
-      <!---->
-    <!--&lt;!&ndash; 开启事务控制的注解支持 &ndash;&gt;  -->
-    <!--<tx:annotation-driven transaction-manager="transactionManager"/>-->
+	<!--引入pinyougou-mapper中的配置文件-->
+	<import resource="classpath:spring/applicationContext-mapper.xml"></import>
+    <!-- 事务管理器  -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<!-- 开启事务控制的注解支持 -->
+	<tx:annotation-driven transaction-manager="transactionManager"/>
 
 
 
