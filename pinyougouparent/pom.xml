@@ -43,6 +43,7 @@
         <security.version>3.2.3.RELEASE</security.version>
         <solrj.version>4.10.3</solrj.version>
         <ik.version>2012_u6</ik.version>
+        <fastdfs.version>1.2</fastdfs.version>
     </properties>
 
     <dependencyManagement>
@@ -176,13 +177,12 @@
                 <artifactId>druid</artifactId>
                 <version>${druid.version}</version>
             </dependency>
-
+            <!-- 文件上传组件 -->
             <dependency>
                 <groupId>org.csource.fastdfs</groupId>
                 <artifactId>fastdfs</artifactId>
-                <version>1.2</version>
+                <version>${fastdfs.version}</version>
             </dependency>
-            <!-- 文件上传组件 -->
             <dependency>
                 <groupId>commons-fileupload</groupId>
                 <artifactId>commons-fileupload</artifactId>

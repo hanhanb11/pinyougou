@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubboxDemoservice/dubboxDemoservice.iml" filepath="$PROJECT_DIR$/dubboxDemoservice/dubboxDemoservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboxDemoweb/dubboxDemoweb.iml" filepath="$PROJECT_DIR$/dubboxDemoweb/dubboxDemoweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-common/pinyougoucommon.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-common/pinyougoucommon.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/pinyougoumanagerweb.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/pinyougoumanagerweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-mapper/pinyougoumapper.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-mapper/pinyougoumapper.iml" />
