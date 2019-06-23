@@ -9,6 +9,8 @@
         <module name="dubboxDemoservice" />
         <module name="dubboxDemoweb" />
         <module name="pinyougoucommon" />
+        <module name="pinyougoucontentinterface" />
+        <module name="pinyougoucontentservice" />
         <module name="pinyougoumanagerweb" />
         <module name="pinyougoumapper" />
         <module name="pinyougoupojo" />
@@ -21,7 +23,10 @@
       <module name="dubboxDemoservice" target="1.7" />
       <module name="dubboxDemoweb" target="1.7" />
       <module name="fastDFS" target="1.5" />
+      <module name="han" target="1.5" />
       <module name="pinyougoucommon" target="1.7" />
+      <module name="pinyougoucontentinterface" target="1.7" />
+      <module name="pinyougoucontentservice" target="1.7" />
       <module name="pinyougoumanagerweb" target="1.7" />
       <module name="pinyougoumapper" target="1.7" />
       <module name="pinyougouparent" target="1.7" />

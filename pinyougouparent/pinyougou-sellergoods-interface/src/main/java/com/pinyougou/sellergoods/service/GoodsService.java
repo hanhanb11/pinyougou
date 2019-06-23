@@ -34,15 +34,15 @@ public interface GoodsService {
 	/**
 	 * 修改
 	 */
-	public void update(TbGoods goods);
+	public void update(Goods goods);
 	
 
 	/**
-	 * 根据ID获取实体
+	 * 根据ID获取实体组合类
 	 * @param id
 	 * @return
 	 */
-	public TbGoods findOne(Long id);
+	public Goods findOne(Long id);
 	
 	
 	/**
@@ -58,5 +58,19 @@ public interface GoodsService {
 	 * @return
 	 */
 	public PageResult findPage(TbGoods goods, int pageNum, int pageSize);
-	
+
+    /**
+     *商品审核和驳回
+     * @param ids
+     * @param status
+     */
+	public void updateStatus(Long[] ids,String status);
+
+
+    /**
+     * 商家判断商品是否上下架
+     * @param ids
+     * @param isMarketable
+     */
+	public void isMarketable(Long[] ids,String isMarketable);
 }

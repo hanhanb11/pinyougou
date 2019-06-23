@@ -54,19 +54,22 @@ app.controller("brandController", function ($scope, $controller, brandService) {
     };
     //4。#########修改结束###########
     //4.2删除
+
     $scope.delBrand = function () {
-        brandService.delBrand($scope.selectIds).success(
-            function (response) {
-                if (response.success) {
-                    if (confirm("您确定要删除吗？")) {
+        if ( $scope.selectIds.length>0 && confirm("您确定要删除吗？")　) {
+
+            brandService.delBrand($scope.selectIds).success(
+                function (response) {
+                    if (response.success) {
+                        $scope.selectIds=[];//删除后清空id
                         $scope.reloadList();
+                        alert(response.message);//删除成功，刷新品牌列表页面
+                    } else {
+                        alert(response.message);//删除失败
                     }
-                    alert(response.message);//删除成功，刷新品牌列表页面
-                } else {
-                    alert(response.message);//删除失败
                 }
-            }
-        );
+            );
+        }
     };
     //5.条件查询：
     $scope.searchEntity = {};//

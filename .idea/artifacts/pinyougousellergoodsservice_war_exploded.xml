@@ -39,6 +39,9 @@
           <element id="archive" name="pinyougou-sellergoods-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="pinyougousellergoodsinterface" />
           </element>
+          <element id="archive" name="pinyougou-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="pinyougoupojo" />
+          </element>
           <element id="archive" name="pinyougou-mapper-1.0-SNAPSHOT.jar">
             <element id="module-output" name="pinyougoumapper" />
           </element>
@@ -49,9 +52,6 @@
           <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
-          <element id="archive" name="pinyougou-pojo-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="pinyougoupojo" />
-          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">
