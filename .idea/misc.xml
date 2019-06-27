@@ -5,6 +5,9 @@
     <file type="web" url="file://$PROJECT_DIR$/dubboxDemoweb" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-content-service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web" />
   </component>
@@ -14,6 +17,8 @@
         <option value="$PROJECT_DIR$/pinyougouparent/pom.xml" />
         <option value="$PROJECT_DIR$/dubboxDemoservice/pom.xml" />
         <option value="$PROJECT_DIR$/dubboxDemoweb/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDataRedisDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDataSolrDemo/pom.xml" />
       </list>
     </option>
   </component>

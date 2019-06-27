@@ -1,12 +1,14 @@
 //二、引入控制器
 app.controller("brandController", function ($scope, $controller, brandService) {
     //引入子控制器
-    $controller("baseController", {$scope: $scope});
+    $controller("baseController", {$scope:$scope});
     //第1步.查询品牌列表
     $scope.findAll = function () {
+
         //请求地址。相当于ajax请求
         brandService.findAll().success(
             function (respose) {
+                alert(respose)
                 $scope.list = respose;
             }
         );
@@ -44,6 +46,7 @@ app.controller("brandController", function ($scope, $controller, brandService) {
     //4。 //################baseController.js###################
     // 4.1#########修改开始###########
     $scope.findOne = function (id) {
+
         //发送请求
         brandService.findOne(id).success(
             //接受传来的数据

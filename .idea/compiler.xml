@@ -8,15 +8,23 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubboxDemoservice" />
         <module name="dubboxDemoweb" />
-        <module name="pinyougoucommon" />
-        <module name="pinyougoucontentinterface" />
-        <module name="pinyougoucontentservice" />
-        <module name="pinyougoumanagerweb" />
-        <module name="pinyougoumapper" />
-        <module name="pinyougoupojo" />
-        <module name="pinyougousellergoodsinterface" />
-        <module name="pinyougousellergoodsservice" />
-        <module name="pinyougoushopweb" />
+        <module name="hh" />
+        <module name="pinyougou-common" />
+        <module name="pinyougou-content-interface" />
+        <module name="pinyougou-content-service" />
+        <module name="pinyougou-manager-web" />
+        <module name="pinyougou-mapper" />
+        <module name="pinyougou-pojo" />
+        <module name="pinyougou-portal-web" />
+        <module name="pinyougou-search-interface" />
+        <module name="pinyougou-search-service" />
+        <module name="pinyougou-search-web" />
+        <module name="pinyougou-sellergoods-interface" />
+        <module name="pinyougou-sellergoods-service" />
+        <module name="pinyougou-shop-web" />
+        <module name="pinyougou-solr-util" />
+        <module name="SpringDataRedisDemo" />
+        <module name="SpringDataSolrDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,16 +32,24 @@
       <module name="dubboxDemoweb" target="1.7" />
       <module name="fastDFS" target="1.5" />
       <module name="han" target="1.5" />
-      <module name="pinyougoucommon" target="1.7" />
-      <module name="pinyougoucontentinterface" target="1.7" />
-      <module name="pinyougoucontentservice" target="1.7" />
-      <module name="pinyougoumanagerweb" target="1.7" />
-      <module name="pinyougoumapper" target="1.7" />
+      <module name="hh" target="1.7" />
+      <module name="pinyougou-common" target="1.7" />
+      <module name="pinyougou-content-interface" target="1.7" />
+      <module name="pinyougou-content-service" target="1.7" />
+      <module name="pinyougou-manager-web" target="1.7" />
+      <module name="pinyougou-mapper" target="1.7" />
+      <module name="pinyougou-pojo" target="1.7" />
+      <module name="pinyougou-portal-web" target="1.7" />
+      <module name="pinyougou-search-interface" target="1.7" />
+      <module name="pinyougou-search-service" target="1.7" />
+      <module name="pinyougou-search-web" target="1.7" />
+      <module name="pinyougou-sellergoods-interface" target="1.7" />
+      <module name="pinyougou-sellergoods-service" target="1.7" />
+      <module name="pinyougou-shop-web" target="1.7" />
+      <module name="pinyougou-solr-util" target="1.7" />
       <module name="pinyougouparent" target="1.7" />
-      <module name="pinyougoupojo" target="1.7" />
-      <module name="pinyougousellergoodsinterface" target="1.7" />
-      <module name="pinyougousellergoodsservice" target="1.7" />
-      <module name="pinyougoushopweb" target="1.7" />
+      <module name="SpringDataRedisDemo" target="1.7" />
+      <module name="SpringDataSolrDemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

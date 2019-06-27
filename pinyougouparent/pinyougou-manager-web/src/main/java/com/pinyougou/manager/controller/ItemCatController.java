@@ -1,12 +1,12 @@
-package com.pinyougou.shop.controller;
+package com.pinyougou.manager.controller;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.pinyougou.pojo.TbSeller;
-import com.pinyougou.sellergoods.service.SellerService;
+import com.pinyougou.pojo.TbItemCat;
+import com.pinyougou.sellergoods.service.ItemCatService;
 
 import entity.PageResult;
 import entity.Result;
@@ -16,19 +16,19 @@ import entity.Result;
  *
  */
 @RestController
-@RequestMapping("/seller")
-public class SellerController {
+@RequestMapping("/itemCat")
+public class ItemCatController {
 
 	@Reference
-	private SellerService sellerService;
+	private ItemCatService itemCatService;
 	
 	/**
 	 * 返回全部列表
 	 * @return
 	 */
 	@RequestMapping("/findAll")
-	public List<TbSeller> findAll(){			
-		return sellerService.findAll();
+	public List<TbItemCat> findAll(){			
+		return itemCatService.findAll();
 	}
 	
 	
@@ -38,18 +38,18 @@ public class SellerController {
 	 */
 	@RequestMapping("/findPage")
 	public PageResult  findPage(int page,int rows){			
-		return sellerService.findPage(page, rows);
+		return itemCatService.findPage(page, rows);
 	}
 	
 	/**
 	 * 增加
-	 * @param seller
+	 * @param itemCat
 	 * @return
 	 */
 	@RequestMapping("/add")
-	public Result add(@RequestBody TbSeller seller){
+	public Result add(@RequestBody TbItemCat itemCat){
 		try {
-			sellerService.add(seller);
+			itemCatService.add(itemCat);
 			return new Result(true, "增加成功");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -59,13 +59,13 @@ public class SellerController {
 	
 	/**
 	 * 修改
-	 * @param seller
+	 * @param itemCat
 	 * @return
 	 */
 	@RequestMapping("/update")
-	public Result update(@RequestBody TbSeller seller){
+	public Result update(@RequestBody TbItemCat itemCat){
 		try {
-			sellerService.update(seller);
+			itemCatService.update(itemCat);
 			return new Result(true, "修改成功");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -79,8 +79,8 @@ public class SellerController {
 	 * @return
 	 */
 	@RequestMapping("/findOne")
-	public TbSeller findOne(String id){
-		return sellerService.findOne(id);		
+	public TbItemCat findOne(Long id){
+		return itemCatService.findOne(id);		
 	}
 	
 	/**
@@ -89,45 +89,46 @@ public class SellerController {
 	 * @return
 	 */
 	@RequestMapping("/delete")
-	public Result delete(String [] ids){
+	public Result delete(Long [] ids){
 		try {
-			sellerService.delete(ids);
+			for (Long id : ids) {
+				List<TbItemCat> list = itemCatService.findByParentId(id);
+				if(list!=null && list.size()>0){
+					TbItemCat itemCat = itemCatService.findOne(id);
+					throw new RuntimeException(itemCat.getName()+" 分类下有子分类，不允许删除");
+
+				}
+			}
+			itemCatService.delete(ids);
 			return new Result(true, "删除成功"); 
 		} catch (Exception e) {
 			e.printStackTrace();
-			return new Result(false, "删除失败");
+			return new Result(false, "删除失败"+e.getMessage());
 		}
 	}
 	
 		/**
 	 * 查询+分页
-	 * @param seller
+	 * @param itemCat
 	 * @param page
 	 * @param rows
 	 * @return
 	 */
 	@RequestMapping("/search")
-	public PageResult search(@RequestBody TbSeller seller, int page, int rows  ){
-		return sellerService.findPage(seller, page, rows);		
+	public PageResult search(@RequestBody TbItemCat itemCat, int page, int rows  ){
+		return itemCatService.findPage(itemCat, page, rows);		
 	}
 
+
+
 	/**
-	 * 审核
-	 * @param sellerId
-	 * @param status
+	 * 根据上级Id查询商品分类列表信息
+	 * @param parentId
 	 * @return
 	 */
-	@RequestMapping("/updateStatus")
-	public Result updateStatus(String sellerId, String status) {
-
-		try {
-			sellerService.updateStatus(sellerId,status);
-			return new Result(true,"成功");
-		} catch (Exception e) {
-			e.printStackTrace();
-			return new Result(false,"失败");
-		}
-
+	@RequestMapping("/findByParentId")
+	public List<TbItemCat> findByParentId(Long parentId){
+		return itemCatService.findByParentId(parentId);
 	}
 	
 }

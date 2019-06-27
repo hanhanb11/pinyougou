@@ -1,12 +1,12 @@
-package com.pinyougou.shop.controller;
+package com.pinyougou.manager.controller;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.pinyougou.pojo.TbItem;
-import com.pinyougou.sellergoods.service.ItemService;
+import com.pinyougou.pojo.TbTypeTemplate;
+import com.pinyougou.sellergoods.service.TypeTemplateService;
 
 import entity.PageResult;
 import entity.Result;
@@ -16,19 +16,19 @@ import entity.Result;
  *
  */
 @RestController
-@RequestMapping("/item")
-public class ItemController {
+@RequestMapping("/typeTemplate")
+public class TypeTemplateController {
 
 	@Reference
-	private ItemService itemService;
+	private TypeTemplateService typeTemplateService;
 	
 	/**
 	 * 返回全部列表
 	 * @return
 	 */
 	@RequestMapping("/findAll")
-	public List<TbItem> findAll(){			
-		return itemService.findAll();
+	public List<TbTypeTemplate> findAll(){			
+		return typeTemplateService.findAll();
 	}
 	
 	
@@ -38,18 +38,18 @@ public class ItemController {
 	 */
 	@RequestMapping("/findPage")
 	public PageResult  findPage(int page,int rows){			
-		return itemService.findPage(page, rows);
+		return typeTemplateService.findPage(page, rows);
 	}
 	
 	/**
 	 * 增加
-	 * @param item
+	 * @param typeTemplate
 	 * @return
 	 */
 	@RequestMapping("/add")
-	public Result add(@RequestBody TbItem item){
+	public Result add(@RequestBody TbTypeTemplate typeTemplate){
 		try {
-			itemService.add(item);
+			typeTemplateService.add(typeTemplate);
 			return new Result(true, "增加成功");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -59,13 +59,13 @@ public class ItemController {
 	
 	/**
 	 * 修改
-	 * @param item
+	 * @param typeTemplate
 	 * @return
 	 */
 	@RequestMapping("/update")
-	public Result update(@RequestBody TbItem item){
+	public Result update(@RequestBody TbTypeTemplate typeTemplate){
 		try {
-			itemService.update(item);
+			typeTemplateService.update(typeTemplate);
 			return new Result(true, "修改成功");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -79,8 +79,8 @@ public class ItemController {
 	 * @return
 	 */
 	@RequestMapping("/findOne")
-	public TbItem findOne(Long id){
-		return itemService.findOne(id);		
+	public TbTypeTemplate findOne(Long id){
+		return typeTemplateService.findOne(id);		
 	}
 	
 	/**
@@ -91,7 +91,7 @@ public class ItemController {
 	@RequestMapping("/delete")
 	public Result delete(Long [] ids){
 		try {
-			itemService.delete(ids);
+			typeTemplateService.delete(ids);
 			return new Result(true, "删除成功"); 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -101,14 +101,14 @@ public class ItemController {
 	
 		/**
 	 * 查询+分页
-	 * @param brand
+	 * @param typeTemplate
 	 * @param page
 	 * @param rows
 	 * @return
 	 */
 	@RequestMapping("/search")
-	public PageResult search(@RequestBody TbItem item, int page, int rows  ){
-		return itemService.findPage(item, page, rows);		
+	public PageResult search(@RequestBody TbTypeTemplate typeTemplate, int page, int rows  ){
+		return typeTemplateService.findPage(typeTemplate, page, rows);		
 	}
 	
 }

@@ -1,12 +1,12 @@
-package com.pinyougou.shop.controller;
+package com.pinyougou.manager.controller;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.pinyougou.pojo.TbItemCat;
-import com.pinyougou.sellergoods.service.ItemCatService;
+import com.pinyougou.pojo.TbSeller;
+import com.pinyougou.sellergoods.service.SellerService;
 
 import entity.PageResult;
 import entity.Result;
@@ -16,19 +16,19 @@ import entity.Result;
  *
  */
 @RestController
-@RequestMapping("/itemCat")
-public class ItemCatController {
+@RequestMapping("/seller")
+public class SellerController {
 
 	@Reference
-	private ItemCatService itemCatService;
+	private SellerService sellerService;
 	
 	/**
 	 * 返回全部列表
 	 * @return
 	 */
 	@RequestMapping("/findAll")
-	public List<TbItemCat> findAll(){			
-		return itemCatService.findAll();
+	public List<TbSeller> findAll(){			
+		return sellerService.findAll();
 	}
 	
 	
@@ -38,18 +38,18 @@ public class ItemCatController {
 	 */
 	@RequestMapping("/findPage")
 	public PageResult  findPage(int page,int rows){			
-		return itemCatService.findPage(page, rows);
+		return sellerService.findPage(page, rows);
 	}
 	
 	/**
 	 * 增加
-	 * @param itemCat
+	 * @param seller
 	 * @return
 	 */
 	@RequestMapping("/add")
-	public Result add(@RequestBody TbItemCat itemCat){
+	public Result add(@RequestBody TbSeller seller){
 		try {
-			itemCatService.add(itemCat);
+			sellerService.add(seller);
 			return new Result(true, "增加成功");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -59,13 +59,13 @@ public class ItemCatController {
 	
 	/**
 	 * 修改
-	 * @param itemCat
+	 * @param seller
 	 * @return
 	 */
 	@RequestMapping("/update")
-	public Result update(@RequestBody TbItemCat itemCat){
+	public Result update(@RequestBody TbSeller seller){
 		try {
-			itemCatService.update(itemCat);
+			sellerService.update(seller);
 			return new Result(true, "修改成功");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -79,8 +79,8 @@ public class ItemCatController {
 	 * @return
 	 */
 	@RequestMapping("/findOne")
-	public TbItemCat findOne(Long id){
-		return itemCatService.findOne(id);		
+	public TbSeller findOne(String id){
+		return sellerService.findOne(id);		
 	}
 	
 	/**
@@ -89,46 +89,45 @@ public class ItemCatController {
 	 * @return
 	 */
 	@RequestMapping("/delete")
-	public Result delete(Long [] ids){
+	public Result delete(String [] ids){
 		try {
-			for (Long id : ids) {
-				List<TbItemCat> list = itemCatService.findByParentId(id);
-				if(list!=null && list.size()>0){
-					TbItemCat itemCat = itemCatService.findOne(id);
-					throw new RuntimeException(itemCat.getName()+" 分类下有子分类，不允许删除");
-
-				}
-			}
-			itemCatService.delete(ids);
+			sellerService.delete(ids);
 			return new Result(true, "删除成功"); 
 		} catch (Exception e) {
 			e.printStackTrace();
-			return new Result(false, "删除失败"+e.getMessage());
+			return new Result(false, "删除失败");
 		}
 	}
 	
 		/**
 	 * 查询+分页
-	 * @param itemCat
+	 * @param seller
 	 * @param page
 	 * @param rows
 	 * @return
 	 */
 	@RequestMapping("/search")
-	public PageResult search(@RequestBody TbItemCat itemCat, int page, int rows  ){
-		return itemCatService.findPage(itemCat, page, rows);		
+	public PageResult search(@RequestBody TbSeller seller, int page, int rows  ){
+		return sellerService.findPage(seller, page, rows);		
 	}
 
-
-
 	/**
-	 * 根据上级Id查询商品分类列表信息
-	 * @param parentId
+	 * 审核
+	 * @param sellerId
+	 * @param status
 	 * @return
 	 */
-	@RequestMapping("/findByParentId")
-	public List<TbItemCat> findByParentId(Long parentId){
-		return itemCatService.findByParentId(parentId);
+	@RequestMapping("/updateStatus")
+	public Result updateStatus(String sellerId, String status) {
+
+		try {
+			sellerService.updateStatus(sellerId,status);
+			return new Result(true,"成功");
+		} catch (Exception e) {
+			e.printStackTrace();
+			return new Result(false,"失败");
+		}
+
 	}
 	
 }
