@@ -1,5 +1,6 @@
 package com.pinyougou.sellergoods.service.impl;
 
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -65,6 +66,7 @@ public class GoodsServiceImpl implements GoodsService {
         Page<TbGoods> page = (Page<TbGoods>) goodsMapper.selectByExample(null);
         return new PageResult(page.getTotal(), page.getResult());
     }
+
     /**
      * 增加
      */
@@ -109,7 +111,7 @@ public class GoodsServiceImpl implements GoodsService {
         }
     }
 
-    private  void saveItemList(Goods goods){
+    private void saveItemList(Goods goods) {
         //存储TbItem列表元素
         List<TbItem> itemList = goods.getItemList();
         if ("1".equals(goods.getTbGoods().getIsEnableSpec())) {
@@ -138,6 +140,7 @@ public class GoodsServiceImpl implements GoodsService {
             tbItemMapper.insert(item);
         }
     }
+
     /**
      * 修改
      */
@@ -160,6 +163,7 @@ public class GoodsServiceImpl implements GoodsService {
 
     /**
      * 根据ID获取实体
+     *
      * @param id
      * @return
      */
@@ -189,7 +193,7 @@ public class GoodsServiceImpl implements GoodsService {
     public void delete(Long[] ids) {
         for (Long id : ids) {
             //删除数据库不删，只是修改状态
-           // goodsMapper.deleteByPrimaryKey(id);
+            // goodsMapper.deleteByPrimaryKey(id);
             TbGoods tbGoods = goodsMapper.selectByPrimaryKey(id);
             tbGoods.setIsDelete("1");//表示逻辑删除，数据库还在
             goodsMapper.updateByPrimaryKey(tbGoods);
@@ -205,7 +209,7 @@ public class GoodsServiceImpl implements GoodsService {
         Criteria criteria = example.createCriteria();
 
         criteria.andIsDeleteIsNull();//筛选isDelete为null的字段
-       // criteria.andIsMarketableIsNull();//筛选IsMarketable为null的字段
+        // criteria.andIsMarketableIsNull();//筛选IsMarketable为null的字段
 
 
         if (goods != null) {
@@ -244,6 +248,7 @@ public class GoodsServiceImpl implements GoodsService {
 
     /**
      * 商品审核和驳回
+     *
      * @param ids
      * @param status
      */
@@ -254,19 +259,22 @@ public class GoodsServiceImpl implements GoodsService {
         for (Long id : ids) {
             TbGoods tbGoods = goodsMapper.selectByPrimaryKey(id);//获取商品实体
             tbGoods.setAuditStatus(status);//设置状态
-             goodsMapper.updateByPrimaryKey(tbGoods);//之后更新数据
+            goodsMapper.updateByPrimaryKey(tbGoods);//之后更新数据
         }
     }
 
 
     /**
+     * 错误的思路✖
+     * <p>
      * 商家判断商品是否上下架
+     *
      * @param ids
      * @param isMarketable
      */
     @Override
     public void isMarketable(Long[] ids, String isMarketable) {
-        System.out.println("isMarketable+..."+isMarketable);
+        System.out.println("isMarketable+..." + isMarketable);
         for (Long id : ids) {
             TbGoods tbGoods = goodsMapper.selectByPrimaryKey(id);//获取商品实体
             tbGoods.setAuditStatus(isMarketable);//设置状态
@@ -274,6 +282,23 @@ public class GoodsServiceImpl implements GoodsService {
 
 
         }
+    }
+
+    /**
+     * 根据SPU的goodsIds和审核状态查询TbItemSKU
+     *
+     * @param goodsIds
+     * @param status
+     * @return
+     */
+    public List<TbItem> findItemListByGoodSIdsAndStatus(Long[] goodsIds, String status) {
+
+        TbItemExample example = new TbItemExample();
+        TbItemExample.Criteria criteria = example.createCriteria();
+        criteria.andStatusEqualTo(status);//设置状态条件
+        criteria.andGoodsIdIn(Arrays.asList(goodsIds));//设置SPU goodsIds;
+
+        return tbItemMapper.selectByExample(example);
     }
 
 }
