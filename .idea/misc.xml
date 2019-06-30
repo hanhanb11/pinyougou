@@ -5,6 +5,8 @@
     <file type="web" url="file://$PROJECT_DIR$/dubboxDemoweb" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-content-service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-web" />
@@ -19,7 +21,13 @@
         <option value="$PROJECT_DIR$/dubboxDemoweb/pom.xml" />
         <option value="$PROJECT_DIR$/SpringDataRedisDemo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringDataSolrDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SprFreemarkerDemo/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-page-web/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">

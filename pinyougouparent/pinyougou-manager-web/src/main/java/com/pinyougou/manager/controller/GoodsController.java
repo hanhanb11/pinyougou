@@ -3,6 +3,7 @@ package com.pinyougou.manager.controller;
 import java.util.Arrays;
 import java.util.List;
 
+import com.pinyougou.page.serice.ItemPageService;
 import com.pinyougou.pojo.TbItem;
 import com.pinyougou.pojogroup.Goods;
 import com.pinyougou.search.service.ItemSearchService;
@@ -156,6 +157,17 @@ public class GoodsController {
             return new Result(true, "状态修改失败");
         }
 
+    }
+
+    /**
+     * freeMarker静态生成页面
+     * @param goodsId
+     */
+    @Reference(timeout = 40000)
+    private ItemPageService itemPageService;
+    @RequestMapping("/getHtml")
+    public void getHtml(Long goodsId){
+        itemPageService.getItemHtml(goodsId);
     }
 
 }
