@@ -7,6 +7,7 @@
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-Pages-web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-web" />
@@ -22,6 +23,10 @@
         <option value="$PROJECT_DIR$/SpringDataRedisDemo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringDataSolrDemo/pom.xml" />
         <option value="$PROJECT_DIR$/SprFreemarkerDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SprActiveMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/SprBjmsProducer/pom.xml" />
+        <option value="$PROJECT_DIR$/SprCjmsConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springBootDemo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

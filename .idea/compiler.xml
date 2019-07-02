@@ -16,6 +16,7 @@
         <module name="pinyougou-mapper" />
         <module name="pinyougou-page-interface" />
         <module name="pinyougou-page-service" />
+        <module name="pinyougou-Pages-web" />
         <module name="pinyougou-pojo" />
         <module name="pinyougou-portal-web" />
         <module name="pinyougou-search-interface" />
@@ -25,7 +26,11 @@
         <module name="pinyougou-sellergoods-service" />
         <module name="pinyougou-shop-web" />
         <module name="pinyougou-solr-util" />
+        <module name="SprActiveMQ" />
+        <module name="SprBjmsProducer" />
+        <module name="SprCjmsConsumer" />
         <module name="SprFreemarkerDemo" />
+        <module name="springBootDemo" />
         <module name="SpringDataRedisDemo" />
         <module name="SpringDataSolrDemo" />
       </profile>
@@ -44,6 +49,7 @@
       <module name="pinyougou-page-interface" target="1.7" />
       <module name="pinyougou-page-service" target="1.7" />
       <module name="pinyougou-page-web" target="1.7" />
+      <module name="pinyougou-Pages-web" target="1.7" />
       <module name="pinyougou-pojo" target="1.7" />
       <module name="pinyougou-portal-web" target="1.7" />
       <module name="pinyougou-search-interface" target="1.7" />
@@ -54,7 +60,11 @@
       <module name="pinyougou-shop-web" target="1.7" />
       <module name="pinyougou-solr-util" target="1.7" />
       <module name="pinyougouparent" target="1.7" />
+      <module name="SprActiveMQ" target="1.5" />
+      <module name="SprBjmsProducer" target="1.5" />
+      <module name="SprCjmsConsumer" target="1.5" />
       <module name="SprFreemarkerDemo" target="1.5" />
+      <module name="springBootDemo" target="1.8" />
       <module name="SpringDataRedisDemo" target="1.7" />
       <module name="SpringDataSolrDemo" target="1.5" />
     </bytecodeTargetLevel>

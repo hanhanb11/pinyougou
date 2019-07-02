@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SprActiveMQ/SprActiveMQ.iml" filepath="$PROJECT_DIR$/SprActiveMQ/SprActiveMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SprBjmsProducer/SprBjmsProducer.iml" filepath="$PROJECT_DIR$/SprBjmsProducer/SprBjmsProducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SprCjmsConsumer/SprCjmsConsumer.iml" filepath="$PROJECT_DIR$/SprCjmsConsumer/SprCjmsConsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/SprFreemarkerDemo/SprFreemarkerDemo.iml" filepath="$PROJECT_DIR$/SprFreemarkerDemo/SprFreemarkerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDataRedisDemo/SpringDataRedisDemo.iml" filepath="$PROJECT_DIR$/SpringDataRedisDemo/SpringDataRedisDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDataSolrDemo/SpringDataSolrDemo.iml" filepath="$PROJECT_DIR$/SpringDataSolrDemo/SpringDataSolrDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubboxDemoservice/dubboxDemoservice.iml" filepath="$PROJECT_DIR$/dubboxDemoservice/dubboxDemoservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubboxDemoweb/dubboxDemoweb.iml" filepath="$PROJECT_DIR$/dubboxDemoweb/dubboxDemoweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/hh/hh.iml" filepath="$PROJECT_DIR$/pinyougouparent/hh/hh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-Pages-web/pinyougou-Pages-web.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-Pages-web/pinyougou-Pages-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-common/pinyougou-common.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-common/pinyougou-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-content-interface/pinyougou-content-interface.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-interface/pinyougou-content-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/pinyougou-content-service.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/pinyougou-content-service.iml" />
@@ -25,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/pinyougou-shop-web.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/pinyougou-shop-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-solr-util/pinyougou-solr-util.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-solr-util/pinyougou-solr-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougouparent.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougouparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBootDemo/springBootDemo.iml" filepath="$PROJECT_DIR$/springBootDemo/springBootDemo.iml" />
     </modules>
   </component>
 </project>
