@@ -36,6 +36,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alicom-dysms-api" target="1.5" />
+      <module name="alicom-mns-receive-samples" target="1.6" />
+      <module name="aliyun-java-sdk-core" target="1.6" />
+      <module name="aliyun-java-sdk-dysmsapi" target="1.6" />
       <module name="dubboxDemoservice" target="1.7" />
       <module name="dubboxDemoweb" target="1.7" />
       <module name="fastDFS" target="1.5" />

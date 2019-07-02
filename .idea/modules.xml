@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ModuleRenamingHistory">
+    <module old-name="hh" new-name="hh" />
+    <module old-name="pinyougou-Pages-web" new-name="pinyougou-Pages-web" />
+    <module old-name="pinyougou-common" new-name="pinyougou-common" />
+    <module old-name="pinyougou-content-interface" new-name="pinyougou-content-interface" />
+    <module old-name="pinyougou-content-service" new-name="pinyougou-content-service" />
+    <module old-name="pinyougou-manager-web" new-name="pinyougou-manager-web" />
+    <module old-name="pinyougou-mapper" new-name="pinyougou-mapper" />
+    <module old-name="pinyougou-page-interface" new-name="pinyougou-page-interface" />
+    <module old-name="pinyougou-page-service" new-name="pinyougou-page-service" />
+    <module old-name="pinyougou-pojo" new-name="pinyougou-pojo" />
+    <module old-name="pinyougou-portal-web" new-name="pinyougou-portal-web" />
+    <module old-name="pinyougou-search-interface" new-name="pinyougou-search-interface" />
+    <module old-name="pinyougou-search-service" new-name="pinyougou-search-service" />
+    <module old-name="pinyougou-search-web" new-name="pinyougou-search-web" />
+    <module old-name="pinyougou-sellergoods-interface" new-name="pinyougou-sellergoods-interface" />
+    <module old-name="pinyougou-sellergoods-service" new-name="pinyougou-sellergoods-service" />
+    <module old-name="pinyougou-shop-web" new-name="pinyougou-shop-web" />
+    <module old-name="pinyougou-solr-util" new-name="pinyougou-solr-util" />
+    <module old-name="pinyougouparent" new-name="pinyougouparent" />
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SprActiveMQ/SprActiveMQ.iml" filepath="$PROJECT_DIR$/SprActiveMQ/SprActiveMQ.iml" />
