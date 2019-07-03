@@ -679,7 +679,7 @@
       <path value="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/src/main/webapp/plugins/select2/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="53" />
     <option name="y" value="59" />
     <option name="width" value="1148" />
@@ -838,7 +838,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://I:/pinyougou/pinyougouparent/pinyougou-page-service/src/main/resources/spring/applicationContext-tx.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562132847360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562133270966" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
