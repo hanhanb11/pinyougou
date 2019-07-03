@@ -27,8 +27,13 @@
       <module fileurl="file://$PROJECT_DIR$/SprBjmsProducer/SprBjmsProducer.iml" filepath="$PROJECT_DIR$/SprBjmsProducer/SprBjmsProducer.iml" />
       <module fileurl="file://$PROJECT_DIR$/SprCjmsConsumer/SprCjmsConsumer.iml" filepath="$PROJECT_DIR$/SprCjmsConsumer/SprCjmsConsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/SprFreemarkerDemo/SprFreemarkerDemo.iml" filepath="$PROJECT_DIR$/SprFreemarkerDemo/SprFreemarkerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootActiiveMQSMS/SpringBootActiiveMQSMS.iml" filepath="$PROJECT_DIR$/SpringBootActiiveMQSMS/SpringBootActiiveMQSMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDataRedisDemo/SpringDataRedisDemo.iml" filepath="$PROJECT_DIR$/SpringDataRedisDemo/SpringDataRedisDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDataSolrDemo/SpringDataSolrDemo.iml" filepath="$PROJECT_DIR$/SpringDataSolrDemo/SpringDataSolrDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alicom-dysms-api.iml" filepath="$PROJECT_DIR$/alicom-dysms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alicom-mns-receive-samples.iml" filepath="$PROJECT_DIR$/alicom-mns-receive-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliyun-java-sdk-core.iml" filepath="$PROJECT_DIR$/aliyun-java-sdk-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliyun-java-sdk-dysmsapi.iml" filepath="$PROJECT_DIR$/aliyun-java-sdk-dysmsapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubboxDemoservice/dubboxDemoservice.iml" filepath="$PROJECT_DIR$/dubboxDemoservice/dubboxDemoservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubboxDemoweb/dubboxDemoweb.iml" filepath="$PROJECT_DIR$/dubboxDemoweb/dubboxDemoweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/hh/hh.iml" filepath="$PROJECT_DIR$/pinyougouparent/hh/hh.iml" />
@@ -49,6 +54,9 @@
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/pinyougou-sellergoods-service.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/pinyougou-sellergoods-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/pinyougou-shop-web.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/pinyougou-shop-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-solr-util/pinyougou-solr-util.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-solr-util/pinyougou-solr-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-interface/pinyougou-user-interface.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-user-interface/pinyougou-user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/pinyougou-user-srvice.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/pinyougou-user-srvice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/pinyougouparent/pinyougou-user-web.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/pinyougouparent/pinyougou-user-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinyougouparent/pinyougouparent.iml" filepath="$PROJECT_DIR$/pinyougouparent/pinyougouparent.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBootDemo/springBootDemo.iml" filepath="$PROJECT_DIR$/springBootDemo/springBootDemo.iml" />
     </modules>

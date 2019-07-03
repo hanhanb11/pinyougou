@@ -1,7 +1,349 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36b6edfb-037d-4c87-8d8b-d099f03df0bb" name="Default Changelist" comment="阿里大与之前的" />
+    <list default="true" id="36b6edfb-037d-4c87-8d8b-d099f03df0bb" name="Default Changelist" comment="阿里大与之前的">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/__MACOSX/java/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/__MACOSX/java/api_demo/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/__MACOSX/java/api_demo/alicom-dysms-api/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/__MACOSX/java/api_demo/alicom-dysms-api/libs/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/__MACOSX/java/api_demo/alicom-dysms-api/src/main/java/com/alicom/dysms/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/__MACOSX/java/api_sdk/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/__MACOSX/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/._AllTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/__MACOSX/java/msg_demo/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/__MACOSX/java/msg_sdk/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/findbugs-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/libraries/aliyun_java_sdk_core_3_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/libraries/aliyun_java_sdk_dysmsapi_1_0_0_SANPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/smartfox_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/alicom-dysms-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/libs/aliyun-java-sdk-core-3.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/libs/aliyun-java-sdk-dysmsapi-1.0.0-SANPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/src/main/java/com/alicom/dysms/api/SmsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/target/classes/com/alicom/dysms/api/SmsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-mns-receive-samples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/aliyun-java-sdk-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/aliyun-java-sdk-dysmsapi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/aliyun-java-sdk-core-3.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/AcsError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/AcsErrorUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/AcsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/AcsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/CommonRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/CommonResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/DefaultAcsClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/IAcsClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/OssAcsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/RoaAcsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/RpcAcsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/auth/AcsURLEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/auth/Credential.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/auth/ICredentialProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/auth/ISignatureComposer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/auth/ISigner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/auth/OssSignatureComposer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/auth/RoaSignatureComposer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/auth/RpcSignatureComposer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/auth/ShaHmac1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/auth/ShaHmac1Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/auth/ShaHmac256.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/exceptions/ClientException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/exceptions/ErrorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/exceptions/ServerException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/http/FormatType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/http/HttpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/http/HttpResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/http/MethodType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/http/PositionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/http/ProtocolType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/http/X509TrustAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/profile/DefaultProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/profile/IClientProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/reader/JsonReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/reader/Reader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/reader/ReaderFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/reader/XmlReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/regions/CustomizedEndpointsParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/regions/DescribeEndpointRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/regions/DescribeEndpointResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/regions/DescribeEndpointService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/regions/DescribeEndpointServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/regions/Endpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/regions/IEndpointsProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/regions/InternalEndpointsParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/regions/LocationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/regions/ProductDomain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/regions/RemoteEndpointsParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/transform/UnmarshallerContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/utils/Base64Helper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/utils/ParameterHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/java/com/aliyuncs/utils/XmlUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/resources/com/aliyuncs/endpoints/endpoints.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/main/resources/com/aliyuncs/sdk/info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/AllTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/ClientExceptionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/DefaultAcsClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/auth/AuthTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/auth/CredentialTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/auth/ShaHmac256Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/batchcompute/model/Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/batchcompute/model/ListJobsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/batchcompute/model/ListJobsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/batchcompute/transform/ListJobsResponseUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/ecs/v20140526/model/CreateInstanceRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/ecs/v20140526/model/CreateInstanceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/ecs/v20140526/model/DescribeRegionsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/ecs/v20140526/model/DescribeRegionsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/ecs/v20140526/model/GetRegionsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/ecs/v20140526/transform/CreateInstanceResponseUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/ecs/v20140526/transform/DescribeRegionsResponseUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/http/HttpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/oss/OssTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/oss/model/Bucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/oss/model/ListBucketRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/oss/model/ListBucketResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/oss/model/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/oss/transform/ListBucketResponseUnmashaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/profile/DefaultProfileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/reader/JsonReaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/reader/XmlReaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/regions/EndpointTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/regions/RegionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/transform/UnmarshallerContextTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/utils/ParameterHelperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/utils/UtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/ChangeDBSourceStatusRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/ChangeDBSourceStatusResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/ChangeDBSourceStatusResponseUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/CreateDBSourceRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/CreateDBSourceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/CreateDBSourceResponseUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/DeleteDBSourceRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/DeleteDBSourceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/DeleteDBSourceResponseUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/GetDBSourceRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/GetDBSourceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/src/test/java/com/aliyuncs/v20150814/GetDBSourceResponseUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/aliyun-java-sdk-core-3.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/classes/com/aliyuncs/endpoints/endpoints.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/classes/com/aliyuncs/sdk/info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.ClientExceptionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.DefaultAcsClientTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.auth.AuthTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.auth.CredentialTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.auth.ShaHmac256Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.http.HttpTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.oss.OssTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.profile.DefaultProfileTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.reader.JsonReaderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.reader.XmlReaderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.regions.EndpointTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.regions.RegionsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.transform.UnmarshallerContextTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.utils.ParameterHelperTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/TEST-com.aliyuncs.utils.UtilsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.ClientExceptionTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.DefaultAcsClientTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.auth.AuthTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.auth.CredentialTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.auth.ShaHmac256Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.http.HttpTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.oss.OssTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.profile.DefaultProfileTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.reader.JsonReaderTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.reader.XmlReaderTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.regions.EndpointTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.regions.RegionsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.transform.UnmarshallerContextTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.utils.ParameterHelperTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/surefire-reports/com.aliyuncs.utils.UtilsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/aliyun-java-sdk-dysmsapi-1.0.0-SANPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/model/v20170525/QueryInterSmsIsoInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/model/v20170525/QueryInterSmsIsoInfoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/model/v20170525/QuerySendDetailsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/model/v20170525/QuerySendDetailsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/model/v20170525/SendInterSmsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/model/v20170525/SendInterSmsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/model/v20170525/SendSmsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/model/v20170525/SendSmsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/transform/v20170525/QueryInterSmsIsoInfoResponseUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/transform/v20170525/QuerySendDetailsResponseUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/transform/v20170525/SendInterSmsResponseUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/src/main/java/com/aliyuncs/dysmsapi/transform/v20170525/SendSmsResponseUnmarshaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/target/aliyun-java-sdk-dysmsapi-1.0.0-SANPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/.idea/findbugs-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/alicom-mns-receive-samples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/alicom-mns-receive-sdk-0.0.1-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/alicom-mns-receive-sdk-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/aliyun-java-sdk-core-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/aliyun-java-sdk-dybaseapi-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/aliyun-sdk-mns-1.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/commons-codec-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/commons-lang3-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/gson-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/httpasyncclient-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/httpclient-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/httpcore-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/httpcore-nio-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_demo/alicom-mns-receive-samples/src/main/java/com/alicom/mns/sample/ReceiveDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/alicom-mns-receive-sdk-0.0.1-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/alicom-mns-receive-sdk-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/aliyun-java-sdk-core-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/aliyun-java-sdk-dybaseapi-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/aliyun-sdk-mns-1.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/commons-codec-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/commons-lang3-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/gson-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/httpasyncclient-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/httpclient-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/httpcore-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/httpcore-nio-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dysmsapi_sdk__java/java/msg_sdk/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/hh/target/hh-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/hh/target/hh-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/hh/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/hh/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-Pages-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-Pages-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-Pages-web/target/pinyougou-Pages-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-Pages-web/target/pinyougou-Pages-web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-common/target/pinyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-common/target/pinyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-interface/target/pinyougou-content-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-interface/target/pinyougou-content-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/pinyougou-content-service-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/pinyougou-content-service-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/pinyougou-content-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/pinyougou-content-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/pinyougou-content-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-content-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/pinyougou-content-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-content-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/pinyougou-content-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/pinyougou-content-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/pinyougou-content-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/pinyougou-content-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-content-service/target/tomcat/logs/access_log.2019-07-01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/pinyougou-manager-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/pinyougou-manager-web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/pinyougou-manager-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/pinyougou-manager-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/pinyougou-manager-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-content-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/pinyougou-manager-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-content-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/pinyougou-manager-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/pinyougou-manager-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/pinyougou-manager-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/pinyougou-manager-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/target/tomcat/logs/access_log.2019-07-01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-mapper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-mapper/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-mapper/target/pinyougou-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-mapper/target/pinyougou-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-interface/target/pinyougou-page-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-interface/target/pinyougou-page-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/pinyougou-page-service-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/pinyougou-page-service-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/pinyougou-page-service-1.0-SNAPSHOT/WEB-INF/classes/com/pinyougou/page/service/impl/PageDeleteListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/pinyougou-page-service-1.0-SNAPSHOT/WEB-INF/classes/com/pinyougou/page/service/impl/PageDeleteListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/pinyougou-page-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/pinyougou-page-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/pinyougou-page-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-page-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/pinyougou-page-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-page-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/pinyougou-page-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/pinyougou-page-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/target/tomcat/logs/access_log.2019-07-01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-pojo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-pojo/target/pinyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-pojo/target/pinyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/pinyougou-portal-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/pinyougou-portal-web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/pinyougou-portal-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/pinyougou-portal-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/pinyougou-portal-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-content-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/pinyougou-portal-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-content-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/pinyougou-portal-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/target/pinyougou-portal-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-interface/target/pinyougou-search-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-interface/target/pinyougou-search-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/pinyougou-search-service-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/pinyougou-search-service-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/pinyougou-search-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/pinyougou-search-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/pinyougou-search-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/pinyougou-search-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/pinyougou-search-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-search-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/pinyougou-search-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-search-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/target/tomcat/logs/access_log.2019-07-01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-web/target/pinyougou-search-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-web/target/pinyougou-search-web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-web/target/pinyougou-search-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-web/target/pinyougou-search-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-web/target/pinyougou-search-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-search-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-search-web/target/pinyougou-search-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-search-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-interface/target/pinyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-interface/target/pinyougou-sellergoods-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/target/tomcat/logs/access_log.2019-07-01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/pinyougou-shop-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/pinyougou-shop-web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/pinyougou-shop-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/pinyougou-shop-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/pinyougou-shop-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/pinyougou-shop-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/pinyougou-shop-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-shop-web/target/pinyougou-shop-web-1.0-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-solr-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-solr-util/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-solr-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-solr-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pinyougou-solr-util/target/pinyougou-solr-util-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pinyougou-solr-util/target/pinyougou-solr-util-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougouparent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougouparent/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/pinyougouparent/target/" />
     <ignored path="$PROJECT_DIR$/pinyougouparent/pinyougou-pojo/target/" />
     <ignored path="$PROJECT_DIR$/pinyougouparent/pinyougou-mapper/target/" />
@@ -38,6 +380,14 @@
     <ignored path="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_demo/alicom-dysms-api/target/" />
     <ignored path="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-core/target/" />
     <ignored path="$PROJECT_DIR$/dysmsapi_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/target/" />
+    <ignored path="$PROJECT_DIR$/dysmsapi_sdk__java_demo/java/api_sdk/aliyun-java-sdk-dysmsapi/target/" />
+    <ignored path="$PROJECT_DIR$/dysmsapi_sdk__java_demo/java/api_demo/alicom-dysms-api/target/" />
+    <ignored path="$PROJECT_DIR$/dysmsapi_sdk__java_demo/java/msg_demo/alicom-mns-receive-samples/target/" />
+    <ignored path="$PROJECT_DIR$/dysmsapi_sdk__java_demo/java/api_sdk/aliyun-java-sdk-core/target/" />
+    <ignored path="$PROJECT_DIR$/SpringBootActiiveMQSMS/target/" />
+    <ignored path="$PROJECT_DIR$/pinyougouparent/pinyougou-user-interface/target/" />
+    <ignored path="$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/target/" />
+    <ignored path="$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +415,7 @@
     <session id="603609530">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="124" />
+          <entry key="project.closed" value="127" />
           <entry key="project.open.time.0" value="27" />
           <entry key="project.open.time.1" value="29" />
           <entry key="project.open.time.12" value="2" />
@@ -76,8 +426,8 @@
           <entry key="project.open.time.17" value="5" />
           <entry key="project.open.time.18" value="6" />
           <entry key="project.open.time.19" value="6" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.20" value="4" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.20" value="5" />
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="5" />
@@ -89,13 +439,14 @@
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="127" />
+          <entry key="project.opened" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -106,16 +457,16 @@
           <entry key="css" value="6" />
           <entry key="dtd" value="1" />
           <entry key="ftl" value="11" />
-          <entry key="html" value="132" />
+          <entry key="html" value="134" />
           <entry key="iml" value="2" />
-          <entry key="java" value="515" />
+          <entry key="java" value="550" />
           <entry key="jpg" value="9" />
-          <entry key="js" value="207" />
+          <entry key="js" value="213" />
           <entry key="jsp" value="2" />
           <entry key="png" value="26" />
           <entry key="pom" value="2" />
-          <entry key="properties" value="45" />
-          <entry key="xml" value="569" />
+          <entry key="properties" value="52" />
+          <entry key="xml" value="605" />
           <entry key="xsd" value="5" />
         </counts>
       </usages-collector>
@@ -125,42 +476,42 @@
           <entry key="CSS" value="6" />
           <entry key="DTD" value="1" />
           <entry key="FTL" value="11" />
-          <entry key="HTML" value="132" />
+          <entry key="HTML" value="134" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="35" />
-          <entry key="JAVA" value="515" />
+          <entry key="JAVA" value="550" />
           <entry key="JSP" value="2" />
-          <entry key="JavaScript" value="207" />
+          <entry key="JavaScript" value="213" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Properties" value="45" />
+          <entry key="Properties" value="52" />
           <entry key="UML" value="12" />
-          <entry key="XML" value="576" />
+          <entry key="XML" value="612" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="1" />
-          <entry key="dummy" value="8" />
+          <entry key="dummy" value="12" />
           <entry key="ftl" value="1841" />
-          <entry key="html" value="10167" />
-          <entry key="java" value="24179" />
-          <entry key="js" value="10107" />
-          <entry key="properties" value="218" />
+          <entry key="html" value="10285" />
+          <entry key="java" value="25771" />
+          <entry key="js" value="10458" />
+          <entry key="properties" value="350" />
           <entry key="txt" value="71" />
-          <entry key="xml" value="5411" />
+          <entry key="xml" value="5540" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="77" />
           <entry key="FTL" value="1776" />
-          <entry key="HTML" value="10155" />
-          <entry key="JAVA" value="24179" />
-          <entry key="JavaScript" value="10107" />
-          <entry key="PLAIN_TEXT" value="80" />
-          <entry key="Properties" value="218" />
+          <entry key="HTML" value="10273" />
+          <entry key="JAVA" value="25771" />
+          <entry key="JavaScript" value="10458" />
+          <entry key="PLAIN_TEXT" value="84" />
+          <entry key="Properties" value="350" />
           <entry key="SQL" value="4" />
-          <entry key="XML" value="5407" />
+          <entry key="XML" value="5536" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -174,7 +525,7 @@
     <favorites_list name="pinyougou" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -187,7 +538,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>searchEntity</find>
       <find>upda</find>
       <find>add</find>
       <find>chendah</find>
@@ -217,6 +567,7 @@
       <find>购物车</find>
       <find>加入购物车</find>
       <find>activemq.version</find>
+      <find>random</find>
     </findStrings>
     <replaceStrings>
       <replace>avatar.png</replace>
@@ -228,31 +579,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-common/src/main/resources/properties/redis-config.properties" />
-        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/src/main/webapp/WEB-INF/ftl/item.ftl" />
-        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-page-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-page-web/pom.xml" />
-        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-Pages-web/pom.xml" />
-        <option value="$PROJECT_DIR$/pinyougouparent/pom.xml" />
-        <option value="$PROJECT_DIR$/SprActiveMQ/pom.xml" />
-        <option value="$PROJECT_DIR$/SprActiveMQ/src/main/java/han/dhl/demo/TopicConsumer.java" />
-        <option value="$PROJECT_DIR$/SprActiveMQ/src/main/java/han/dhl/demo/TopicProducer.java" />
-        <option value="$PROJECT_DIR$/SprActiveMQ/src/main/java/han/dhl/demo/QueueProducer.java" />
-        <option value="$PROJECT_DIR$/SprActiveMQ/src/main/java/han/dhl/demo/QueueConsumer.java" />
-        <option value="$PROJECT_DIR$/SprBjmsProducer/pom.xml" />
-        <option value="$PROJECT_DIR$/SprCjmsConsumer/src/main/resources/applicationContext-jms-consumer.xml" />
-        <option value="$PROJECT_DIR$/SprCjmsConsumer/src/test/java/han/dhll/demo/MyMessageListener.java" />
-        <option value="$PROJECT_DIR$/SprCjmsConsumer/src/main/resources/applicationContext-jms-consumer-queue.xml" />
-        <option value="$PROJECT_DIR$/SprCjmsConsumer/pom.xml" />
-        <option value="$PROJECT_DIR$/SprCjmsConsumer/src/test/java/han/dhll/demo/testConsumer.java" />
-        <option value="$PROJECT_DIR$/SprBjmsProducer/src/main/java/han/dhll/demo/QueueProducer.java" />
-        <option value="$PROJECT_DIR$/SprBjmsProducer/src/test/java/han/dhll/test/TestQueue.java" />
-        <option value="$PROJECT_DIR$/SprCjmsConsumer/src/test/java/han/dhll/demo/testQueueConsumer.java" />
-        <option value="$PROJECT_DIR$/SprBjmsProducer/src/test/java/han/dhll/test/TestTopic.java" />
-        <option value="$PROJECT_DIR$/SprBjmsProducer/src/main/java/han/dhll/demo/TopicProducer.java" />
-        <option value="$PROJECT_DIR$/SprCjmsConsumer/src/main/java/han/dhll/demo/MyMessageListener.java" />
-        <option value="$PROJECT_DIR$/SprCjmsConsumer/src/test/java/han/dhll/demo/TestQueueConsumer.java" />
-        <option value="$PROJECT_DIR$/SprCjmsConsumer/src/test/java/han/dhll/demo/TestTopicConsumer.java" />
         <option value="$PROJECT_DIR$/SprBjmsProducer/src/main/resources/applicationContext-jms-producer.xml" />
         <option value="$PROJECT_DIR$/SprCjmsConsumer/src/main/resources/applicationContext-jms-consumer-topic.xml" />
         <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/src/main/webapp/WEB-INF/web.xml" />
@@ -279,6 +605,31 @@
         <option value="$PROJECT_DIR$/springBootDemo/src/main/java/han/dhll/QueueConsumer.java" />
         <option value="$PROJECT_DIR$/springBootDemo/src/main/java/han/dhll/QueueController.java" />
         <option value="$PROJECT_DIR$/springBootDemo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dysmsapi_sdk__java_demo/java/api_sdk/aliyun-java-sdk-dysmsapi/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootActiiveMQSMS/pom.xml" />
+        <option value="$PROJECT_DIR$/dysmsapi_sdk__java_demo/java/api_demo/alicom-dysms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/java/han/dhll/sms/SmsDemo.java" />
+        <option value="$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/java/han/dhll/sms/Application.java" />
+        <option value="$PROJECT_DIR$/dysmsapi_sdk__java_demo/java/api_demo/alicom-dysms-api/src/main/java/com/alicom/dysms/api/SmsDemo.java" />
+        <option value="$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/java/han/dhll/sms/SmsConsumer.java" />
+        <option value="$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/java/han/dhll/sms/SmsUtil.java" />
+        <option value="$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/java/han/dhll/sms/SmsController.java" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-common/src/main/java/util/PhoneFormatCheckUtils.java" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-interface/src/main/java/com/pinyougou/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/webapp/js/service/userService.js" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/webapp/register.html" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/webapp/js/controller/userController.js" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/java/com/pinyougou/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/src/main/resources/spring/applicationContext-jms-producer.xml" />
+        <option value="$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/java/han/dhll/sms/SmsListener.java" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/src/main/java/com/pinyougou/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pinyougouparent/pinyougou-common/src/main/resources/properties/sms.properties" />
       </list>
     </option>
   </component>
@@ -297,7 +648,7 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="dedicatedModuleDir" value="I:\pinyougou\dysmsapi_sdk__java\java" />
+        <option name="dedicatedModuleDir" value="I:\pinyougou" />
         <option name="importAutomatically" value="true" />
         <option name="lookForNested" value="true" />
       </MavenImportingSettings>
@@ -308,16 +659,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="pinyougou-search-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="pinyougou-user-interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springBootDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springBootDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="pinyougou-user-interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -372,57 +719,92 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SprFreemarkerDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougouparent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougouparent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougouparent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougouparent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougouparent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougouparent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougouparent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootActiiveMQSMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootActiiveMQSMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootActiiveMQSMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootActiiveMQSMS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootActiiveMQSMS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="han" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinyougou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="han" type="462c0819:PsiDirectoryNode" />
-              <item name="dhll" type="462c0819:PsiDirectoryNode" />
+              <item name="sms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -445,7 +827,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,40 +838,40 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://I:/pinyougou/pinyougouparent/pinyougou-page-service/src/main/resources/spring/applicationContext-tx.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562056543128" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562132847360" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dysmsapi_sdk__java/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pinyougouparent/pinyougou-user-web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38242576" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="I:\pinyougou\pinyougouparent\pinyougou-search-service\src\main\resources\spring" />
-      <recent name="I:\pinyougou\pinyougouparent\pinyougou-page-service\src\main\resources\spring" />
-      <recent name="I:\pinyougou\pinyougouparent\pinyougou-manager-web\src\main\resources\spring" />
-      <recent name="I:\pinyougou\SprCjmsConsumer\src\main\resources" />
-      <recent name="I:\pinyougou\SprBjmsProducer\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="han.dhll.demo" />
-      <recent name="han.dhl.demo" />
-      <recent name="com.pinyougou.solrutil" />
-      <recent name="han.dhll.pojo" />
-      <recent name="han.dhll.mapper" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\pinyougou\pinyougouparent\pinyougou-user-web" />
       <recent name="I:\pinyougou\dysmsapi_sdk__java\java" />
       <recent name="I:\pinyougou\pinyougouparent\pinyougou-page-service\src\main\resources\spring" />
       <recent name="I:\pinyougou\pinyougouparent\pinyougou-search-web\src\main\webapp" />
       <recent name="I:\pinyougou\pinyougouparent\pinyougou-manager-web\src\main\resources\config" />
-      <recent name="I:\pinyougou\pinyougouparent\pinyougou-manager-web\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="han.dhll.sms" />
+      <recent name="han.dhll.demo" />
+      <recent name="han.dhl.demo" />
+      <recent name="com.pinyougou.solrutil" />
+      <recent name="han.dhll.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\pinyougou\pinyougouparent\pinyougou-common\src\main\resources\properties" />
+      <recent name="I:\pinyougou\pinyougouparent\pinyougou-user-srvice\src\main\resources\spring" />
+      <recent name="I:\pinyougou\pinyougouparent\pinyougou-common\src\main\java\util" />
+      <recent name="I:\pinyougou\pinyougouparent\pinyougou-user-web\src\main\webapp" />
+      <recent name="I:\pinyougou\pinyougouparent\pinyougou-user-web\src\main\webapp\js\plugins" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -505,13 +886,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="TopicConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="han.dhl.demo.TopicConsumer" />
-      <module name="SprActiveMQ" />
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="SmsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alicom.dysms.api.SmsDemo" />
+      <module name="alicom-dysms-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="han.dhl.demo.*" />
+          <option name="PATTERN" value="com.alicom.dysms.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -535,22 +916,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTopicConsumer.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SprCjmsConsumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="han.dhll.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="han.dhll.demo" />
-      <option name="MAIN_CLASS_NAME" value="han.dhll.demo.TestTopicConsumer" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestTopic.testTopicProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SprBjmsProducer" />
       <extension name="coverage">
@@ -563,6 +928,19 @@
       <option name="MAIN_CLASS_NAME" value="han.dhll.test.TestTopic" />
       <option name="METHOD_NAME" value="testTopicProducer" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootActiiveMQSMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="han.dhll.sms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="han.dhll.sms.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -582,18 +960,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestTopic.testTopicProducer" />
-      <item itemvalue="JUnit.TestTopicConsumer.test" />
-      <item itemvalue="Application.TopicConsumer" />
       <item itemvalue="JUnit.TestPage.deleAll" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.SmsDemo" />
+      <item itemvalue="Spring Boot.Application (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Application.SmsDemo" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.TestPage.deleAll" />
         <item itemvalue="JUnit.TestTopic.testTopicProducer" />
-        <item itemvalue="JUnit.TestTopicConsumer.test" />
-        <item itemvalue="Application.TopicConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -733,7 +1111,10 @@
       <workItem from="1562051318691" duration="569000" />
       <workItem from="1562051928204" duration="148000" />
       <workItem from="1562053393091" duration="409000" />
-      <workItem from="1562054057307" duration="2444000" />
+      <workItem from="1562054057307" duration="14065000" />
+      <workItem from="1562070275324" duration="31000" />
+      <workItem from="1562116702688" duration="13252000" />
+      <workItem from="1562130666834" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="aaassdd">
       <created>1560165187243</created>
@@ -855,7 +1236,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="546681000" />
+    <option name="totallyTimeSpent" value="572874000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -867,9 +1248,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.33055976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.25113463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -882,11 +1263,11 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49848714" weight="0.49099836" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4977307" weight="0.49590835" />
+      <window_info anchor="bottom" id="Spring" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.5286416" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.5286416" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.7905074" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -908,6 +1289,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -925,367 +1316,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SprActiveMQ/src/main/java/han/dhl/demo/TopicProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.15.9/activemq-client-5.15.9.jar!/org/apache/activemq/command/ActiveMQTempTopic.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprBjmsProducer/src/main/java/han/dhll/demo/QueueProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprActiveMQ/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprBjmsProducer/src/test/java/han/dhll/test/TestQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.0.5.RELEASE/spring-jms-5.0.5.RELEASE-sources.jar!/org/springframework/jms/listener/AbstractMessageListenerContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="197" column="16" selection-start-line="197" selection-start-column="16" selection-end-line="197" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprCjmsConsumer/src/main/java/han/dhll/demo/MyMessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprCjmsConsumer/src/test/java/han/dhll/demo/TestQueueConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprBjmsProducer/src/main/java/han/dhll/demo/TopicProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprCjmsConsumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprActiveMQ/src/main/java/han/dhl/demo/TopicConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.15.9/activemq-client-5.15.9.jar!/org/apache/activemq/command/ActiveMQTopic.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprBjmsProducer/src/main/resources/applicationContext-jms-producer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprCjmsConsumer/src/main/resources/applicationContext-jms-consumer-queue.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprCjmsConsumer/src/main/resources/applicationContext-jms-consumer-topic.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprBjmsProducer/src/test/java/han/dhll/test/TestTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprCjmsConsumer/src/test/java/han/dhll/demo/TestTopicConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.0.5.RELEASE/spring-jms-5.0.5.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3036" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprBjmsProducer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/src/main/java/com/pinyougou/search/service/impl/ItemSearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-730">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2032">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/src/main/java/com/pinyougou/search/service/impl/itemDeleteSearchListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/pinyougou-page-service.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/src/main/resources/properties/page.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="134" column="21" lean-forward="true" selection-start-line="125" selection-start-column="7" selection-end-line="134" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/src/main/java/com/pinyougou/search/service/impl/ItemSearchListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/src/main/resources/spring/applicationContext-tx.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-interface/src/main/java/com/pinyougou/page/serice/ItemPageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/src/main/java/com/pinyougou/page/service/impl/PageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/src/main/java/com/pinyougou/page/service/impl/ItemPageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-search-service/src/main/resources/spring/applicationContext-jms-consumer-queue.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/src/main/resources/spring/applicationContext-jms-consumer-queue.xml" />
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/src/main/resources/spring/spring-jms.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/src/main/java/com/pinyougou/manager/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2816">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/src/main/resources/spring/applicationContext-jms-consumer-topic.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringDataSolrDemo/src/test/java/han/dhll/TestPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-page-service/src/main/java/com/pinyougou/page/service/impl/PageDeleteListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/han.dhll:springBootDemo:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>han.dhll:springBootDemo:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">han.dhll:springBootDemo:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework:spring-core:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework:spring-core:jar:5.0.5.RELEASE/org.springframework:spring-jcl:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.29</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.29</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.29</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-web:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-web:jar:5.0.5.RELEASE/org.springframework:spring-beans:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-webmvc:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-webmvc:jar:5.0.5.RELEASE/org.springframework:spring-aop:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-webmvc:jar:5.0.5.RELEASE/org.springframework:spring-context:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-webmvc:jar:5.0.5.RELEASE/org.springframework:spring-expression:jar:5.0.5.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0140912730184146" x="632.0" y="419.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springBootDemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springBootDemo/src/main/java/han/dhll/SpringBootDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/src/main/java/com/alicom/dysms/api/SmsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dysmsapi_sdk__java/java/alicom-dysms-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-interface/src/main/java/com/pinyougou/sellergoods/service/GoodsDescService.java">
+    <entry file="file://$PROJECT_DIR$/dysmsapi_sdk__java_demo/java/api_sdk/aliyun-java-sdk-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="110">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springBootDemo/src/main/java/han/dhll/QueueController.java">
+    <entry file="file://$PROJECT_DIR$/dysmsapi_sdk__java_demo/java/api_demo/alicom-dysms-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="396">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1296,17 +1349,300 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springBootDemo/src/main/java/han/dhll/QueueConsumer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="20" selection-start-line="19" selection-start-column="3" selection-end-line="20" />
+        <state relative-caret-position="326">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springBootDemo/src/main/java/han/dhll/Application.java">
+    <entry file="file://$PROJECT_DIR$/springBootDemo/src/main/java/han/dhll/QueueConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="274">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springBootDemo/src/main/java/han/dhll/SpringBootDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/java/han/dhll/sms/SmsConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/springBootDemo/src/main/java/han/dhll/QueueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dysmsapi_sdk__java_demo/java/api_demo/alicom-dysms-api/src/main/java/com/alicom/dysms/api/SmsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/java/han/dhll/sms/SmsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-content-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprActiveMQ/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootActiiveMQSMS/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprCjmsConsumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/src/main/resources/web.xml" />
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="116" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-sellergoods-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="108" column="19" lean-forward="true" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/src/main/resources/spring/applicationContext-tx.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/webapp/js/base.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-pojo/src/main/java/com/pinyougou/pojo/TbUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-portal-web/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/webapp/js/plugins/angularjs/pagination.js" />
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/webapp/plugins/sui/sui.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-common/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-common/src/main/java/util/PhoneFormatCheckUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://I:/Develop/install/Java/jdk1.8/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="772" column="43" selection-start-line="772" selection-start-column="43" selection-end-line="772" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringDataRedisDemo/src/test/java/test/TestHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-interface/src/main/java/com/pinyougou/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/java/com/pinyougou/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/webapp/js/service/userService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/webapp/js/controller/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-common/src/main/resources/properties/redis-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/java/han/dhll/sms/SmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/java/han/dhll/sms/SmsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/src/main/java/com/pinyougou/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="177" column="70" lean-forward="true" selection-start-line="177" selection-start-column="70" selection-end-line="177" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootActiiveMQSMS/src/main/java/han/dhll/sms/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-srvice/src/main/resources/spring/applicationContext-jms-producer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-user-web/src/main/webapp/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="64" column="64" selection-start-line="64" selection-start-column="64" selection-end-line="64" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougouparent/pinyougou-common/src/main/resources/properties/sms.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1375,7 +1711,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SpringDataSolrDemo</last-edited>
+          <last-edited>alicom-dysms-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1413,7 +1749,7 @@
     </states>
   </component>
   <component name="mavenExecuteGoalHistory">
-    <option value="I:\pinyougou\pinyougouparent\pinyougou-page-service" />
+    <option value="I:\pinyougou\pinyougouparent\pinyougou-user-web" />
     <option value="tomcat7:run" />
   </component>
 </project>

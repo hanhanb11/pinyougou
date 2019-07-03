@@ -26,6 +26,9 @@
         <module>pinyougou-page-interface</module>
         <module>pinyougou-page-service</module>
         <module>pinyougou-Pages-web</module>
+        <module>pinyougou-user-interface</module>
+        <module>pinyougou-user-srvice</module>
+        <module>pinyougou-user-web</module>
 
 
     </modules>

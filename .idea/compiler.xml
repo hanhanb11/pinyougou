@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="alicom-dysms-api" />
+        <module name="alicom-mns-receive-samples" />
+        <module name="aliyun-java-sdk-core" />
+        <module name="aliyun-java-sdk-dysmsapi" />
         <module name="dubboxDemoservice" />
         <module name="dubboxDemoweb" />
         <module name="hh" />
@@ -26,10 +30,14 @@
         <module name="pinyougou-sellergoods-service" />
         <module name="pinyougou-shop-web" />
         <module name="pinyougou-solr-util" />
+        <module name="pinyougou-user-interface" />
+        <module name="pinyougou-user-srvice" />
+        <module name="pinyougou-user-web" />
         <module name="SprActiveMQ" />
         <module name="SprBjmsProducer" />
         <module name="SprCjmsConsumer" />
         <module name="SprFreemarkerDemo" />
+        <module name="SpringBootActiiveMQSMS" />
         <module name="springBootDemo" />
         <module name="SpringDataRedisDemo" />
         <module name="SpringDataSolrDemo" />
@@ -63,11 +71,15 @@
       <module name="pinyougou-sellergoods-service" target="1.7" />
       <module name="pinyougou-shop-web" target="1.7" />
       <module name="pinyougou-solr-util" target="1.7" />
+      <module name="pinyougou-user-interface" target="1.7" />
+      <module name="pinyougou-user-srvice" target="1.7" />
+      <module name="pinyougou-user-web" target="1.7" />
       <module name="pinyougouparent" target="1.7" />
       <module name="SprActiveMQ" target="1.5" />
       <module name="SprBjmsProducer" target="1.5" />
       <module name="SprCjmsConsumer" target="1.5" />
       <module name="SprFreemarkerDemo" target="1.5" />
+      <module name="SpringBootActiiveMQSMS" target="1.8" />
       <module name="springBootDemo" target="1.8" />
       <module name="SpringDataRedisDemo" target="1.7" />
       <module name="SpringDataSolrDemo" target="1.5" />
